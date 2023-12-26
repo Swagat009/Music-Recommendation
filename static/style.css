@@ -1,0 +1,45 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    background-color: #e99f9f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* ... Add more styles as needed ... */
+/* Apply a light yellow background to the index page */
+body.index {
+    background-color: #fffdd0; /* Light yellow color */
+}
+
+/* Style the music system icon */
+.music-icon {
+    font-size: 60px; /* Adjust the size as needed */
+    color: #FFA500; /* Orange color */
+}
+
+/* Style the names on the right side */
+.names {
+    float: right;
+    font-size: 18px;
+    margin-top: 20px;
+}

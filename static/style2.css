@@ -1,0 +1,49 @@
+/* Apply a green background for the page */
+body {
+    font-family: 'Raleway', sans-serif;
+
+
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Create a container for the content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Style the recommendations in boxes */
+li {
+    padding: 15px;
+    border: 1px solid #55a44b; /* Green border color */
+    border-radius: 5px;
+    background-color: #eaf9ea; /* Light green background color */
+    margin-bottom: 20px;
+}
+
+/* Add a subtle hover effect */
+li:hover {
+    background-color: #d7f2d7; /* Slightly darker green on hover */
+}
+/* Apply a red background circle to the music icon */
+.container ul li i {
+    background-color: #FF0000; /* Red color */
+    color: #000; /* Black text color */
+    border-radius: 50%; /* Create a circle */
+    padding: 10px; /* Adjust padding for the circle size */
+    margin-right: 10px; /* Add space between the icon and text */
+}
